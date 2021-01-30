@@ -1,2 +1,2 @@
 # avp-project
-...git branch commands...
+My project will be an android application
