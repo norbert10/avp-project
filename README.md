@@ -8,3 +8,6 @@ The App will be downloaded from the playstore
 Project name : NB RESTAURANT
 It has a landing page. the landing page will contain the the title/name of the restaurant
 and a picture of the inner-decoration of the restaurant
+
+The project will also have have a registration page incase of new user. after registration, one can 
+log in.
