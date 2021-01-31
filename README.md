@@ -32,3 +32,7 @@ It has order menu which has buttons. These buttons help one to navigate to the s
 
 It have customer care section where one can dirrectly communicate to the administrators incase they need any help.
 
+to keep the reccords, the data will be tored obn a database.
+
+
+
