@@ -1,0 +1,5 @@
+<resources>
+    <string name="btn_Next">NEXT PAGE</string>
+    <string name="btn_Back">BACK</string>
+    <string name="app_name">AUCTION_APP</string>
+</resources>
