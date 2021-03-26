@@ -21,4 +21,15 @@ public class MainActivity2 extends AppCompatActivity {
         Intent decisionPage = new Intent(this, MainActivityDecision.class);
         startActivity(decisionPage);
     }
+
+
+    public void itemDetails(final View v){
+        Intent intent = new Intent(this, ProductDetails.class );
+        startActivity(intent);
+    }
+
+    public void helpDesk(final View help){
+        Intent helper = new Intent(this, ContactDetails.class);
+        startActivity(helper);
+    }
 }

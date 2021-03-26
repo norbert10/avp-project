@@ -9,8 +9,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/app_background_launcher"
+        android:background="@color/white"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CHOOSE YOUR TRANSACTION HERE"
+            android:textColor="@color/teal_700"
+            android:textColorHint="@color/teal_700"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -32,7 +43,9 @@
             android:layout_marginBottom="25dp"
             android:background="@drawable/my_button"
             android:onClick="goToDecisionPage"
-            android:text="VIEW PRODUCTS" />
+            android:text="VIEW PRODUCTS"
+            android:textColor="@android:color/holo_red_light"
+            app:backgroundTint="@color/white" />
 
         <Button
             android:id="@+id/button3"
@@ -43,7 +56,11 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/my_button"
-            android:text="POST ITEM" />
+            android:onClick="itemDetails"
+            android:text="POST ITEM"
+            android:textColor="@android:color/holo_red_light"
+            android:textColorHint="@android:color/holo_red_light"
+            app:backgroundTint="@color/white" />
 
         <Button
             android:id="@+id/button4"
@@ -54,7 +71,11 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/my_button"
-            android:text="HELP DESK" />
+            android:onClick="helpDesk"
+            android:text="HELP DESK"
+            android:textColor="@android:color/holo_red_light"
+            android:textColorHint="@android:color/holo_red_light"
+            app:backgroundTint="@color/white" />
 
         <TextView
             android:id="@+id/textView4"

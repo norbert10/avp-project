@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AUCTION_APP">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ContactDetails"></activity>
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".ResetPassWordActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivityDecision" />
