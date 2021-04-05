@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.auction_app">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AUCTION_APP">
-        <activity android:name=".ContactDetails"></activity>
+        <activity android:name=".Logout"></activity>
+        <activity android:name=".Response" />
+        <activity android:name=".Bids" />
+        <activity android:name=".ContactDetails" />
         <activity android:name=".ProductDetails" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ResetPassWordActivity" />
